@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">veiwpager</string>
+    <string name="textview">TextView</string>
+    <string name="heading"><u>SMART HOME</u></string>
+    <string name="device1">Light1</string>
+    <string name="device2">Light2</string>
+    <string name="device3">Night Lamp</string>
+    <string name="device4">Plug Point</string>
+    <string name="device5">Fan</string>
+    <string name="fan_speed">1</string>
+    <string name="con_status">Not Connected</string>
+    <string name="off">OFF</string>
+    <string name="on">ON</string>
+    <string name="button">Disconnect</string>
+    <string name="test_text">Local IP Address</string>
+    <string name="Setting">TODO</string>
+    <string name="Setting_t">Reset</string>
+    <string name="Setting_text"><u>SETTINGS</u></string>
+    <string name="device_name">Device Name</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/advent_pro_thin</item>
+        <item>@font/aldrich</item>
+        <item>@font/alegreya_sans_sc_thin</item>
+        <item>@font/amarante</item>
+        <item>@font/arbutus</item>
+        <item>@font/architects_daughter</item>
+        <item>@font/atomic_age</item>
+        <item>@font/baloo_bhai</item>
+        <item>@font/black_ops_one</item>
+        <item>@font/cabin_semibold</item>
+        <item>@font/changa_semibold</item>
+        <item>@font/coda_extrabold</item>
+        <item>@font/concert_one</item>
+        <item>@font/convergence</item>
+        <item>@font/days_one</item>
+        <item>@font/dosis_extralight</item>
+        <item>@font/michroma</item>
+        <item>@font/montserrat_subrayada_bold</item>
+        <item>@font/reem_kufi</item>
+    </array>
+</resources>

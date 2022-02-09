@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".MainActivity"
+    android:id="@+id/main_layout">
+
+
+  <TextView
+      android:id="@+id/Head"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="20dp"
+      android:fontFamily="@font/aldrich"
+      android:text="@string/heading"
+      android:textAlignment="center"
+      android:textColor="#0a0e31"
+      android:textSize="30sp" />
+  <ImageView
+      android:id="@+id/img_con"
+      android:layout_width="30dp"
+      android:layout_height="30dp"
+      android:layout_alignParentEnd="true"
+      android:layout_marginTop="25dp"
+      android:layout_marginEnd="28dp"
+      app:srcCompat="@drawable/offline" />
+
+  <androidx.viewpager2.widget.ViewPager2
+      android:id="@+id/view_pager2"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_centerInParent="true"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="10dp" />
+
+  <LinearLayout
+      android:id="@+id/dots_container"
+      android:layout_width="match_parent"
+      android:layout_height="40dp"
+      android:layout_centerHorizontal="true"
+      android:background="@color/Crimson"
+      android:gravity="center_horizontal|center_vertical"
+      android:orientation="horizontal"
+      android:layout_alignParentBottom="true"/>
+
+
+  <TextView
+      android:id="@+id/dstat"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_below="@id/dots_container"
+      android:layout_marginLeft="10dp"
+      android:text="Status : " />
+
+</RelativeLayout>
